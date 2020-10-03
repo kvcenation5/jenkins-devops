@@ -18,7 +18,7 @@ pipeline {
 		stage('Integration Test') {
 			steps {
 				echo "Integration Test"
-			}
+			} }
 		}
 	}
 
@@ -34,6 +34,9 @@ post {
 	}
 	cleanup {
 		echo 'This is a cleanup process'
+	}
+	changed {
+		echo 'Its changed'
 	}
 }
 }
