@@ -1,4 +1,4 @@
-pipeline {
+pipeline {{
 	agent any
 	// agent {
 	// 	docker {
@@ -48,4 +48,5 @@ post {
 	changed {
 		echo 'Its changed'
 	}
+}
 }
