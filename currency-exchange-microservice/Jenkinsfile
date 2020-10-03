@@ -2,7 +2,7 @@ pipeline {
 	//agent any
 	agent {
 		docker {
-			image 'ant:3.6.3'
+			image 'gradle:latest'
 		}
 	}
 	stages{
