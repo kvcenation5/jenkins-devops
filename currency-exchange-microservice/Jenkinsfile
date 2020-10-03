@@ -2,7 +2,7 @@ pipeline {
 	//agent any
 	agent {
 		docker {
-			image 'gradle:latest'
+			image 'gradle:jre8'
 		}
 	}
 	stages{
