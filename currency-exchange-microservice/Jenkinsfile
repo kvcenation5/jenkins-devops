@@ -32,8 +32,8 @@ post {
 	failure {
 		echo 'I run when you fail'
 	}
-	testing {
-		echo 'This is a testing process'
+	cleanup {
+		echo 'This is a cleanup process'
 	}
 }
 }
