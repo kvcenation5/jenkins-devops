@@ -1,10 +1,10 @@
-pipeline {{
+pipeline {
 	agent any
 	// agent {
 	// 	docker {
 	// 		image 'gradle:jre8'
 	// 	}
-	}
+	//}
 	stages{
 		stage('Build') {
 			steps {
